@@ -1,0 +1,56 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+
+.title {
+  text-align: center
+}
+
+#credit {
+  color:lightgray
+}
+
+#container {
+  background: #c79ef812;
+  /* height: 500px; */
+  padding: 50px;
+  font-size: 14px;
+  border-radius: 33px;
+  text-align: center;
+}
+
+#text-container {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+#instruction {
+  margin-top: 20px;
+}
+
+.result-color {
+  color: #A159FC;
+}
+
+.green-color {
+  color: #0bcf82;
+}
+
+.highlight {
+  opacity: 0.4;
+  background-color: rgba(161,89,252, 0.2) !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fileUploader {
+  opacity: 0;
+}
