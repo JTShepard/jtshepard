@@ -9,19 +9,21 @@ https://opensource.org/licenses/MIT
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="https://jtshepard.github.io/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
   <script src="https://jtshepard.github.io/js/tfjs.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 </head>
 
 <body onresize="windowResized()">
-  <!-- <a href="https://aizoo.com"><img src=images/aizoocom.png height="30px"></a> -->
-  <h1 class='title'> FaceMaskCheck.com: WEAR A MASK TO SAVE LIVES</h1>
+  <h1 class='title'> www.FaceMaskCheck.com</h1>
   <div id="webcam-container"></div>
-  <h3 class='title' id='instructions'> Free face mask detection for stores, offices, and events! </h3>
-  <h3 class='title' id='instructions'> Please allow this website to use your webcam. </h3>
-  <h3 class='title' id='disclaimer'> Disclaimer: This website is intended to help remind people to wear masks to limit the spread of viruses, but there is no guarantee about its detection accuracy. </h3>
-  <h3 class='title' id='credit'> Built on the work of https://github.com/AIZOOTech and https://github.com/Ashish9914</h3>
+  <!-- <h1 class='title'> Wear a mask to save lives </h1> -->
+  <h2 class='title' style="text-align:center;" id='instructions'> Free face mask detection for stores, offices, and events </h3>
+  <h3 class='titlte' style="text-align:center;" id='permission'> Please allow this website to use your webcam. It might take a minute to load. </h3>
+  <!-- <h3 class='titlte' style="text-align:center;" id='permission'> Instructions: setup a computer or tablet at the desired location, go to this website on the device, allow this website to use your webcam, wait a minute, and . </h3> -->
+  <p style="text-align:center;" > <a href="mailto:info@facemaskcheck.com">info@facemaskcheck.com</a> </p>
+  <p id='disclaimer' style="text-align:center;">Disclaimer: This website is intended to help people wear masks to limit the spread of viruses, but there is no guarantee about its detection accuracy. </p>
+  <p style="text-align:center;" id='credit'> Built on the work of AIZOOTech and Ashish9914</p>
   <script src="https://jtshepard.github.io/js/detection.js"></script>
   <script src="https://jtshepard.github.io/js/index.js"></script>
 </body>
